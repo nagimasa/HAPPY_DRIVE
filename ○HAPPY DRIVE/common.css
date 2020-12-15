@@ -1,0 +1,80 @@
+@charset "utf-8";
+* {
+  margin:0;
+  padding:0;
+}
+img{
+  vertical-align: bottom;
+}
+li{
+  list-style: none;
+}
+
+.logo_wrap{
+  position: relative;
+}
+.top_logo{
+  width: 55%;
+  margin: 28px 0 8px 4%;
+}
+.top_btn{
+  position: absolute;
+  right: 3vw;
+  top: 18px;
+  display: inline-block;
+}
+.top_btn a{
+  color: #fff;
+  background-color:#E68600;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 3px;
+  letter-spacing: 2px;
+}
+.menu{
+    padding:12px 0;
+    height: 42px;
+    text-align: center;
+    /* background-color:  #FFF2E6; */
+  }
+  .next_menu li,
+  .menu li{
+    display: inline-block;
+    font-size: 14px;
+  }
+  .menu li:nth-of-type(1){
+    background: url(./images/home_liback.png);
+  }
+  .menu li:nth-of-type(2){
+    background: url(./images/pao_liback.png);
+  }
+  .menu li:nth-of-type(3){
+    background: url(./images/figaro_liback.png);
+  }
+  .menu li{
+    padding: 12px 0;
+    letter-spacing: 2px;
+    float: left;
+    width: calc(100%/3);
+    box-sizing: border-box;
+}
+  .menu li:not(:first-child) p{
+    border-left: 1px solid #333 ;
+  }
+  .menu li:first-child p{
+    margin: 10px 0;
+  }
+
+.footer{
+  padding: 0px 0 24px 0;
+  text-align: center;
+}
+.footer_menu li{
+  display: inline-block;
+  margin: 0 12px;
+  letter-spacing: 3px;
+}
+.footer img{
+  width: 45%;
+  margin: 16px 0 10px 0;
+}
